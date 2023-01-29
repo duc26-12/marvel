@@ -1,0 +1,145 @@
+.wrapper {
+  display: flex;
+  position: relative;
+}
+.navigated {
+  display: flex;
+  position: relative;
+  top: 3px;
+  align-items: center;
+}
+.link {
+  text-decoration: none;
+  color: #afafaf;
+  padding: 0 12px;
+}
+.nav {
+  font-size: 2.3rem;
+  color: #afafaf;
+  transition: 0.4s;
+  cursor: pointer;
+
+  &.active {
+    color: #ffffff;
+  }
+
+  &:hover {
+    color: #ffffff;
+  }
+}
+
+// notify
+.pseudo {
+  display: inline-block;
+  position: absolute;
+  top: -20px;
+  right: -35px;
+  color: #fff;
+}
+
+.notify {
+  padding: 22px 16px 0 16px;
+}
+.notify__header {
+}
+.notify__header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.notify__more {
+  font-size: 2rem;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s;
+  border-radius: 50%;
+
+  &:hover {
+    background-color: rgba(167, 167, 167, 0.2);
+  }
+  .notify__icon {
+    position: relative;
+    top: 2px;
+  }
+}
+.notify__more-actions {
+  width: 375px;
+  max-height: min((100vh - 96px) - 60px, 734px);
+  min-height: 72px;
+  color: #000;
+  background-color: rgb(251, 251, 251);
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: -4px;
+  right: -45px;
+}
+.notify__more-list {
+  padding: 8px 0;
+  height: 100%;
+  align-items: center;
+}
+.notify__action-item {
+  margin: 0 8px;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  &:hover {
+    background-color: rgba(167, 167, 167, 0.2);
+  }
+}
+.notify__item-title {
+  font-size: 15px;
+  font-weight: 500;
+}
+.notify__item-icon {
+  font-size: 22px;
+  margin-right: 10px;
+}
+.notify__header-bottom {
+  // display: flex;
+}
+.notify__header-bottom {
+  margin-top: 12px;
+}
+.notify__actions {
+  color: #000;
+  display: block;
+  background-color: rgb(241 241 242);
+  padding: 2px 8px;
+  margin-bottom: 12px;
+  margin-right: 8px;
+  font-size: 1.4rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: all 300ms ease 0s;
+}
+.active_item {
+  color: rgb(255, 255, 255);
+  background: rgb(22, 24, 35);
+}
+// user
+.user {
+  padding: 6px 0 0 12px;
+}
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  object-fit: cover;
+}
+.pseudo__user {
+  display: inline-block;
+  position: absolute;
+  top: -25px;
+  right: -47px;
+  z-index: 100;
+  color: #fff;
+}

@@ -1,0 +1,18 @@
+.Menu {
+  padding-left: 15px;
+}
+
+.menu-item {
+  text-decoration: none;
+  color: #afafaf;
+  padding: 0 12px;
+
+  &.active {
+    color: #fff;
+    position: relative;
+  }
+}
+.title {
+  font-size: 18px;
+  font-weight: 500;
+}

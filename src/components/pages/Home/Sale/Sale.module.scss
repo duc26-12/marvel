@@ -1,0 +1,45 @@
+.Sale_introduce {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-65%);
+  color: #fff;
+  line-height: 1.4;
+  margin-left: 11%;
+}
+.Sale_header {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 4rem;
+}
+.Sale_title {
+  font-size: 1.6rem;
+  text-align: center;
+}
+.Sale_button {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.Sale_button-title {
+  text-transform: uppercase;
+  position: relative;
+  top: 2px;
+}
+
+.img {
+  position: relative;
+  height: 655px;
+  width: 100%;
+  clip-path: polygon(7% 0, 100% 0, 100% 100%, 23% 100%, 14% 43%);
+  opacity: 0.4;
+}
+.img_child {
+  position: absolute;
+  top: 20%;
+  right: 15%;
+  width: 252px;
+  height: 380px;
+  border-radius: 5px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}

@@ -1,0 +1,82 @@
+.wrapper {
+  height: 100%;
+  position: relative;
+  color: #fff;
+}
+.leftArrow {
+  position: absolute;
+  font-size: 6rem;
+  top: 50%;
+  left: 10px;
+  transform: translate(0, -50%);
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    font-size: 6.2rem;
+    left: 5px;
+    cursor: pointer;
+  }
+}
+
+.rightArrow {
+  position: absolute;
+  font-size: 6rem;
+  top: 50%;
+  right: 10px;
+  transform: translate(0, -50%);
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    font-size: 6.2rem;
+    right: 5px;
+    cursor: pointer;
+  }
+}
+.slide {
+  transition: ease 1000ms;
+}
+
+.descriptions {
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 63%;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 94%;
+  right: 40%;
+}
+
+.item {
+  cursor: pointer;
+  width: 40px;
+  height: 7px;
+  margin-left: 5px;
+  border: 0px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+}
+.item.active {
+  background-color: #e62429;
+  width: 55px;
+}
+
+.logo {
+  max-width: 100%;
+}
+
+.button {
+  margin-left: 20px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
